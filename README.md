@@ -58,6 +58,85 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## MODEL
+
+- Persona
+  - persona_id
+  - nombre
+  - apellido
+  - correo_electronico
+  - telefono
+  - direccion
+  - resumen_perfil
+  - foto (url)
+  - enlace_linkedin
+- Red social
+  - red_social_id
+  - nombre
+  - url
+  - icono
+- Eduacion
+  - eduacion_id
+  - persona_id
+  - institucion
+  - grado_academico
+  - campo_estudio
+  - fecha_inicio
+  - fecha_fin
+  - descripcion
+- Experiencia laboral
+  - experiencia_id
+  - persona_id
+  - empresa
+  - cargo
+  - fecha_inicio
+  - fecha_fin
+  - ubicacion
+  - descripcion
+- Publicaciones
+  - publicacion_id
+  - persona_id
+  - titulo
+  - revista_o_conferencia
+  - fecha_publicacion
+  - enlace
+  - descripcion
+- Certificaciones
+  - certificacion_id
+  - persona_id
+  - titulo
+  - institucion
+  - fecha_optencion
+  - descripcion
+  - enlace
+- Idiomas
+  - idioma_id
+  - persona_id
+  - idioma
+  - nivel
+- Proyectos
+  - proyecto_id
+  - persona_id
+  - nombre
+  - fecha_inicio
+  - fecha_fin
+  - descripcion
+  - enlace_proyecto
+  - imagen
+- Habilidades
+  - habilidad_id
+  - persona_id
+  - nombre_habilidad
+  - nivel
+- Referencias
+  - referencia_id
+  - persona_id
+  - nombre
+  - cargo
+  - empresa
+  - telefono
+  - correo_electronico
+
 ## Resources
 
 Check out a few resources that may come in handy when working with NestJS:
